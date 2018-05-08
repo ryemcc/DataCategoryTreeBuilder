@@ -1,4 +1,4 @@
-global with sharing class proposal_force_getDataCategories implements proposal_force.getDataCategoriesInterface{
+global with sharing class proposal_force_getDataCategories implements proposalforce.getDataCategoriesInterface{
 	@AuraEnabled
 	global static string getKnowledgeCategories() {
 		try{
